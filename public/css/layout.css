@@ -56,7 +56,20 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { width: 100%;
+background-color:rgb(82, 82, 82);
+opacity: 0.60;
+padding: 3%;
+transition: 0.5s;
+border-radius: 15px;
+}
+
+header .banner-text:hover {
+background-color: rgb(4, 4, 4);
+opacity: 0.60;
+transition: 0.5s;
+}
+
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
