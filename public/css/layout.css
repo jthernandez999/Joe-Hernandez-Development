@@ -158,10 +158,12 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
+
+
 ul#nav {
    min-height: 48px;
    width: auto;
-
+   
    /* center align the menu */
    text-align: center;
 }
@@ -173,6 +175,8 @@ ul#nav li {
 }
 
 /* Links */
+
+
 ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
@@ -190,6 +194,58 @@ ul#nav li a {
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+ nav ul li a {
+   position:relative;
+   z-index: 1;
+ }
+ nav ul li a:hover {
+   color: #005789;
+ }
+ nav ul li a:after {
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   margin: auto;
+   width: 100%;
+   height: 1px;
+   content: '.';
+   color: transparent;
+   background: #018eae;
+   visibility: none;
+   opacity: 0;
+   z-index: -1;
+ }
+ nav ul li a:hover:after {
+   opacity: 1;
+   visibility: visible;
+   height: 100%;
+ }
+/* 
+ @-webkit-keyframes fill {
+   0% {
+     width: 0%;
+     height: 1px;
+   }
+   50% {
+     width: 100%;
+     height: 1px;
+   }
+   100% {
+     width: 100%;
+     height: 100%;
+     background: #333;
+   }
+ }  */
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
