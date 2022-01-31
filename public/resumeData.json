@@ -107,23 +107,25 @@
   },
   "portfolio": {
     "projects": [
+      
+      {
+        "title": "Dear John Denim",
+        "category": "Women's Apparel",
+        "image": "fury-fighting-gear.jpg",
+        "url": "https://dearjohndenim.com/"
+      },
+      
+      {
+        "title": "",
+        "category": "",
+        "image": "",
+        "url": ""
+      },
       {
         "title": "Lambda Eats",
         "category": "",
         "image": "canadian-wanderlust.jpg",
         "url": "https://lambda-eats-qeliazibk-jthernandez999.vercel.app/2"
-      },
-      {
-        "title": "",
-        "category": "",
-        "image": "",
-        "url": ""
-      },
-      {
-        "title": "",
-        "category": "",
-        "image": "",
-        "url": ""
       },
       {
         "title": "",
