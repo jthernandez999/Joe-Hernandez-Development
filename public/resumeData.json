@@ -5,9 +5,9 @@
     "description": "As a problem solver who loves facing challenges in my work, I'm excited to be at the development phase of my career as a web developer. I am passionate and ambitious about my work, and love to be on a team that questions possibilities",
     "image": "profilepic.jpg",
     "bio": "",
-    "contactmessage": "",
+    "contactmessage": "Shoot me an email, lets talk!",
     "email": "j.t.hernandez999@gmail.com",
-    "phone": "626-786-7473",
+    "phone": "",
     "address": {
       "street": "",
       "city": "Los Angeles",
@@ -51,13 +51,7 @@
         "school": "BloomTech (FKA Lambda School), Student, Part-Time Program, Full Stack Web Development",
         "degree": "Full Stack Web Development",
         "graduated": "March 2021 - Present",
-        "description": ""
-      },
-      {
-        "school": "",
-        "degree": "",
-        "graduated": "",
-        "description": ""
+        "description": "BloomTech is an online Computer Science & Software Engineering Academy that provides an immersive hands-on curriculum with a focus on computer science, software engineering, and web development."
       }
     ],
     "work": [
@@ -65,7 +59,7 @@
         "company": "Dear John Denim, inc.",
         "title": "E-Commerce Designer/Developer",
         "years": "October 2021 - Present",
-        "description": ""
+        "description":"Develop and maintain custom components for integration into Shopify themes. Test, troubleshoot and debug applications to optimize performance and reliability. Design mock-ups and wireframes to refine project layouts before development. Estimate and prioritize workload, set timelines and manage my time appropriately."
       },
       {
         "company": "",
@@ -109,17 +103,17 @@
     "projects": [
       
       {
-        "title": "Dear John Denim",
+        "title": "Dear John Denim, Inc",
         "category": "Women's Apparel",
         "image": "fury-fighting-gear.jpg",
         "url": "https://dearjohndenim.com/"
       },
       
       {
-        "title": "",
-        "category": "",
-        "image": "",
-        "url": ""
+        "title": "Another Love Clothing",
+        "category": "Women's Apparel",
+        "image": "smirkspace.jpg",
+        "url": "https://anotherloveclothing.com"
       },
       {
         "title": "Lambda Eats",
@@ -144,8 +138,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "",
-        "user": ""
+        "text": "“Dwell on the beauty of life. Watch the stars, and see yourself running with them.”",
+        "user": " — Marcus Aurelius, Meditations"
       },
       {
         "text": "",
