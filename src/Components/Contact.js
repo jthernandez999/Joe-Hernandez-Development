@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom';
+// import { withRouter } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 
 
@@ -18,7 +18,7 @@ class Contact extends Component {
             console.log(error.text);
          })
       e.target.reset()
-this.props.history.push('/')
+      // this.props.history.push("#home")
    }
 
    render() {
@@ -79,7 +79,7 @@ this.props.history.push('/')
                         </div>
                      </fieldset>
                   </form> */}
-                  <form id="contactForm" name="contactForm" onSubmit={this.sendEmail}>
+                  <form id="contactForm" name="contactForm" onSubmit={this.sendEmail.bind(this)}>
                      <fieldset>
                         <div>
                            <label htmlFor="contactName">Name <span className="required">*</span></label>
@@ -98,7 +98,7 @@ this.props.history.push('/')
                            <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                         </div>
                         <div>
-                           <button className="submitButton" >Submit</button>
+                           <button className="submitButton" ><a className="submitButton" href="#home">Submit</a></button>
                            <span id="image-loader">
                               <img alt="" src="images/loader.gif" />
                            </span>
