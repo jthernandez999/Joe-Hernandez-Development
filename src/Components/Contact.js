@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 
 
 
 class Contact extends Component {
 
+ 
 
    sendEmail = (e) => {
       e.preventDefault();
@@ -16,6 +18,7 @@ class Contact extends Component {
             console.log(error.text);
          })
       e.target.reset()
+this.props.history.push('/')
    }
 
    render() {
@@ -76,7 +79,7 @@ class Contact extends Component {
                         </div>
                      </fieldset>
                   </form> */}
-                  <form action="" method="post" id="contactForm" name="contactForm" onSubmit={this.sendEmail}>
+                  <form id="contactForm" name="contactForm" onSubmit={this.sendEmail}>
                      <fieldset>
                         <div>
                            <label htmlFor="contactName">Name <span className="required">*</span></label>
