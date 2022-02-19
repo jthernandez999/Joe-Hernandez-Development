@@ -22,6 +22,7 @@
         "url": "http://facebook.com/",
         "className": "fa fa-facebook"
       },
+      
       {
         "name": "twitter",
         "url": "http://twitter.com",
@@ -45,7 +46,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "",
+    "skillmessage": "Im always learning something new, I consider my self a life-long learner",
     "education": [
       {
         "school": "BloomTech (FKA Lambda School), Student, Part-Time Program, Full Stack Web Development",
